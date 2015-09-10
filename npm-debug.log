@@ -1,0 +1,37 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'uninstall', '-g', 'bower' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose unbuild lib/node_modules/bower
+5 info preuninstall bower@1.5.2
+6 info uninstall bower@1.5.2
+7 verbose unbuild rmStuff bower@1.5.2 from /usr/local/lib/node_modules
+8 silly gentlyRm /usr/local/bin/bower is being gently removed
+9 silly gentlyRm verifying /usr/local is an npm working directory
+10 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+11 silly gentlyRm deletion target /usr/local/bin/bower is under /usr/local
+12 verbose gentlyRm vacuuming from /usr/local/bin/bower up to /usr/local
+13 silly vacuum-fs removing /usr/local/bin/bower
+14 silly vacuum-fs quitting because other entries in /usr/local/bin
+15 info postuninstall bower@1.5.2
+16 silly gentlyRm /usr/local/lib/node_modules/bower is being purged from base /usr/local
+17 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/bower
+18 silly vacuum-fs purging /usr/local/lib/node_modules/bower
+19 verbose stack Error: EACCES, rmdir '/usr/local/lib/node_modules/bower'
+19 verbose stack     at Error (native)
+20 verbose cwd /Users/tow02/MUIC/2014-2015/SummerOfCode/Asturias
+21 error Darwin 14.5.0
+22 error argv "node" "/usr/local/bin/npm" "uninstall" "-g" "bower"
+23 error node v0.12.7
+24 error npm  v2.11.3
+25 error path /usr/local/lib/node_modules/bower
+26 error code EACCES
+27 error errno -13
+28 error Error: EACCES, rmdir '/usr/local/lib/node_modules/bower'
+28 error     at Error (native)
+28 error  { [Error: EACCES, rmdir '/usr/local/lib/node_modules/bower']
+28 error   errno: -13,
+28 error   code: 'EACCES',
+28 error   path: '/usr/local/lib/node_modules/bower' }
+29 error Please try running this command again as root/Administrator.
+30 verbose exit [ -13, true ]
